@@ -37,43 +37,71 @@ const FooterContents = () => {
       </div> */}
       <div className="container">
         <div className="cs_footer_in">
+          <div className="cs_footer_col lg:w-[25%]">
+            <div className="cs_footer_item  ">
+              <div className="cs_text_widget  ">
+                {/* <img
+                  className="w-[100%]"
+                  src="/53-removebg-preview.png"
+                  alt="Logo"
+                /> */}
+                <h2
+                  style={{ color: "#fff", margin: "0" }}
+                  className="text-[#fff]">
+                  Dsick bay
+                </h2>
+                <p style={{ color: "#fff", margin: "0" }}>by vaedoc</p>
+              </div>
+              <div className="cs_social_links_wrap mt-4 ">
+                <h2 className="cs_white_color">Follow Us</h2>
+                <div className="cs_social_links">
+                  <a
+                    target="blank"
+                    href="https://web.facebook.com/people/Vaedoc-Health-care-on-the-go/61562259659753/">
+                    <i className="fa-brands fa-facebook-f" />
+                  </a>
+
+                  <a
+                    target="blank"
+                    href="https://www.linkedin.com/company/vaedoc-ltd">
+                    <i className="fa-brands fa-linkedin-in" />
+                  </a>
+                  <a target="blank" href="https://x.com/VaedocH">
+                    <i className="fa-brands fa-twitter" />
+                  </a>
+                  <a
+                    target="blank"
+                    href="https://www.instagram.com/vaedoc_health/">
+                    <i className="fa-brands fa-instagram" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="cs_footer_col">
             <div className="cs_footer_item">
-              <div className="cs_text_widget">
-                <img src="assets/img/footer_logo_white.svg" alt="Logo" />
-                <p className="cs_medium">
-                  ProHealth Medical &amp; Healthcare Center
-                </p>
+              <ul className="cs_menu_widget cs_mp0">
+                <li className="">
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#features">Key Features</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="cs_footer_col">
+            <div className="cs_footer_item">
+              <div>
+                <p className="cs_medium">Contact us today</p>
               </div>
               <ul className="cs_contact_widget">
-                <li>
-                  <i className="cs_accent_bg">
-                    <svg
-                      width={9}
-                      height={12}
-                      viewBox="0 0 9 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M4.5 11.3896C3.21094 9.32715 0.955078 6.53131 0.955078 4.12506C0.955078 2.04008 2.54533 0.343815 4.5 0.343815C6.45467 0.343815 8.04492 2.04008 8.04492 4.12506C8.04492 6.53131 5.78906 9.32715 4.5 11.3896Z"
-                        stroke="#307BC4"
-                        strokeWidth="0.5"
-                        strokeMiterlimit={10}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M4.5 5.84375C3.61156 5.84375 2.88867 5.07267 2.88867 4.125C2.88867 3.17733 3.61156 2.40625 4.5 2.40625C5.38844 2.40625 6.11133 3.17733 6.11133 4.125C6.11133 5.07267 5.38844 5.84375 4.5 5.84375Z"
-                        stroke="#307BC4"
-                        strokeWidth="0.5"
-                        strokeMiterlimit={10}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </i>
-                  123 Anywhere St., Any City 12345
-                </li>
                 <li>
                   <i className="cs_accent_bg">
                     <svg
@@ -88,7 +116,7 @@ const FooterContents = () => {
                       />
                     </svg>
                   </i>
-                  123-456-7890
+                  ( +234 913 332 4301)
                 </li>
                 <li>
                   <i className="cs_accent_bg">
@@ -104,85 +132,31 @@ const FooterContents = () => {
                       />
                     </svg>
                   </i>
+                  <a href="mailto:info@vaedoc.coms" className="__cf_email__">
+                    info@vaedoc.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="cs_footer_col">
+            <div className="cs_footer_item">
+              <ul className="cs_menu_widget cs_mp0">
+                <li>
                   <a
-                    href="https://html.laralink.com/cdn-cgi/l/email-protection"
-                    className="__cf_email__"
-                    data-cfemail="1e767b7272717d7f72727d7b706a7b6c5e79737f7772307d7173">
-                    [email&nbsp;protected]
+                    target="blank"
+                    href="https://www.vaedoc.com/privacy-policy">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="blank"
+                    href="https://www.vaedoc.com/terms-conditions">
+                    Terms and Conditions
                   </a>
                 </li>
               </ul>
-            </div>
-          </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
-              <ul className="cs_menu_widget cs_mp0">
-                <li>
-                  <a href="#">About Us</a>
-                </li>
-                <li>
-                  <a href="#">Departments</a>
-                </li>
-                <li>
-                  <a href="#">Doctors</a>
-                </li>
-                <li>
-                  <a href="#">Timetable</a>
-                </li>
-                <li>
-                  <a href="#">Appointment</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
-              <ul className="cs_menu_widget cs_mp0">
-                <li>
-                  <a href="#">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
-                <li>
-                  <a href="#">FAQs</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="cs_footer_col">
-            <div className="cs_footer_item">
-              <ul className="cs_menu_widget cs_mp0">
-                <li>
-                  <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#">Terms and Conditions</a>
-                </li>
-              </ul>
-              <div className="cs_social_links_wrap">
-                <h2 className="cs_white_color">Follow Us</h2>
-                <div className="cs_social_links">
-                  <a href="#">
-                    <i className="fa-brands fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-youtube" />
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-linkedin-in" />
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-instagram" />
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -190,7 +164,7 @@ const FooterContents = () => {
       <div className="cs_footer_bottom">
         <div className="container">
           <div className="cs_copyright">
-            Copyright © 2024 Pro Health. All rights reserved.
+            Copyright © 2025 vaedoc. All rights reserved.
           </div>
         </div>
       </div>

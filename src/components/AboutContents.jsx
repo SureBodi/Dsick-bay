@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutContents = () => {
   return (
-    <section className="cs_about cs_style_2 cs_shape_wrap">
+    <section id="about" className="cs_about cs_style_2 cs_shape_wrap">
       <div className="cs_shape_3">
         <svg
           width={738}
@@ -34,18 +34,19 @@ const AboutContents = () => {
         <div className="row align-items-end cs_gap_y_50">
           <div className="col-xl-6">
             <div className="cs_section_heading cs_style_1">
-              <h3 className="cs_section_subtitle text-uppercase cs_accent_color cs_semibold m-0 cs_accent_color cs_fs_32">
+              {/* <h3 className="cs_section_subtitle text-uppercase cs_accent_color cs_semibold m-0 cs_accent_color cs_fs_32">
                 ABOUT US
-              </h3>
+              </h3> */}
               <div className="cs_height_5" />
-              <h2 className="cs_section_title cs_fs_72 m-0">
-                ProHealth is a team of experienced medical professional
-              </h2>
+              <h2 className="cs_section_title cs_fs_72 m-0">About Dsick bay</h2>
               <div className="cs_height_85 cs_height_xl_40 cs_height_lg_30" />
               <p className="m-0">
-                Dedicated to providing top-quality healthcare services. We
-                believe in a holistic approach to healthcare that focuses on
-                treating the whole person, not just the illness or symptoms.
+                Dsick bay brings prevention, clinical care and telehealth into
+                one easy-to-use platform for businesses. By combining proactive
+                screening with fast access to clinicians and anonymous reporting
+                for HR, we boost staff engagement, reduce absenteeism, and
+                generate measurable cost savings and improved health outcomes
+                across the organisation.
               </p>
             </div>
           </div>
