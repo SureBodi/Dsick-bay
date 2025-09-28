@@ -2,12 +2,12 @@ import React from "react";
 
 const HowItWorksSection = () => {
   return (
-    <section className="cs_shape_wrap">
+    <section id="features" className="cs_shape_wrap">
       <div className="cs_shape_1 cs_position_2" />
       <div className="cs_height_185 cs_height_xl_140 cs_height_lg_100" />
       <div className="container">
         <div className="cs_section_heading cs_style_1 text-center">
-          <h2 className="cs_section_title cs_fs_72 m-0">How it Works</h2>
+          <h2 className="cs_section_title cs_fs_72 m-0">Key Features</h2>
         </div>
         <div className="cs_height_105 cs_height_lg_50" />
         <div className="cs_iconbox_3_wrap">
@@ -34,12 +34,11 @@ const HowItWorksSection = () => {
             <div className="cs_iconbox_right">
               <h4 className="cs_iconbox_number">01</h4>
               <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                Book Appointment
+                Telemedicine
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                You can book an appointment with us by <br />
-                calling our office, filling out an online form, or <br />
-                using our mobile app.
+                Secure chat, audio and video consults <br /> with certified
+                doctors.
               </p>
             </div>
           </div>
@@ -74,12 +73,10 @@ const HowItWorksSection = () => {
             <div className="cs_iconbox_right">
               <h4 className="cs_iconbox_number">02</h4>
               <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                Visit Our Facility
+                Mental health support
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                On the day of your appointment, come to our <br />
-                facility at the designated time. Our staff will greet <br />
-                you and guide you through the check-in process.
+                mental health checkup, and therapy sessions.
               </p>
             </div>
           </div>
@@ -130,14 +127,11 @@ const HowItWorksSection = () => {
             <div className="cs_iconbox_right">
               <h4 className="cs_iconbox_number">03</h4>
               <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                Meet with Our Healthcare <br />
-                Professionals
+                Lab coordination
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                You will meet with one of our healthcare <br />
-                professionals who will conduct a thorough <br />
-                examination and provide a diagnosis or <br />
-                treatment plan.
+                Book tests, route to partner labs <br /> or your HMO. Lab bills
+                handled <br /> per company policy.
               </p>
             </div>
           </div>
@@ -304,12 +298,10 @@ const HowItWorksSection = () => {
             <div className="cs_iconbox_right">
               <h4 className="cs_iconbox_number">04</h4>
               <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                Follow-up Care
+                Anonymized <br /> admin dashboard
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                We will schedule any necessary follow-up <br />
-                appointments, tests, or procedures to ensure <br />
-                that you receive the best possible care.
+                Utilization, health trends, and KPI reports
               </p>
             </div>
           </div>
@@ -356,13 +348,10 @@ const HowItWorksSection = () => {
             <div className="cs_iconbox_right">
               <h4 className="cs_iconbox_number">05</h4>
               <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                Insurance and Billing
+                SLA & support
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                We accept most major insurance plans and <br />
-                our billing department will work with you to <br />
-                ensure that you understand your coverage <br />
-                and any out-of-pocket expenses.
+                Dedicated team and enterprise support.
               </p>
             </div>
           </div>

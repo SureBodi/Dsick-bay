@@ -10,7 +10,7 @@ const Template = ({ children }) => {
       {/* Use next/head or layout metadata in a real app, but keeping your structure: */}
       <head>
         <link rel="icon" href="/assets/img/favicon.png" />
-        <title>ProHealth - Medical and Healthcare Template</title>
+        <title>Dsick bay - Workplace Health & Wellbeing | Vaedoc</title>
         {/* CSS */}
         <link rel="stylesheet" href="/assets/css/plugins/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/plugins/fontawesome.min.css" />

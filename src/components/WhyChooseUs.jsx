@@ -10,7 +10,8 @@ const WhyChooseUs = () => {
           <div className="col-xl-5">
             <div className="cs_pr_95 text-center cs_img_filed">
               <img
-                src="assets/img/about/why_choose_us.jpg"
+                // src="assets/img/about/why_choose_us.jpg"
+                src="/assets/img/WhatsApp Image 1404-07-04 at 12.40.56.jpeg"
                 alt="Why Choose Us"
                 className=" cs_radius_30"
               />
@@ -18,7 +19,9 @@ const WhyChooseUs = () => {
           </div>
           <div className="col-xl-7">
             <div className="cs_section_heading cs_style_1">
-              <h2 className="cs_section_title cs_fs_72 m-0">Why Choose Us</h2>
+              <h2 className="cs_section_title cs_fs_72 m-0">
+                Why Employers Choose Dsick bay
+              </h2>
             </div>
             <div className="cs_height_85 cs_height_xl_70 cs_height_lg_50" />
             <div className="row">
@@ -28,13 +31,10 @@ const WhyChooseUs = () => {
                     <img src="assets/img/icons/professional.svg" alt="Icon" />
                   </div>
                   <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                    Experienced Medical Professionals
+                    Lower absenteeism
                   </h2>
                   <p className="cs_iconbox_subtitle m-0">
-                    Our team includes experienced doctors, nurses, <br />
-                    and other healthcare professionals who are <br />
-                    dedicated to providing the best possible care to <br />
-                    our patients.
+                    Faster triage and early care reduces full-day work absences.
                   </p>
                 </div>
                 <div className="cs_height_85 cs_height_xl_60 cs_height_lg_35" />
@@ -45,13 +45,11 @@ const WhyChooseUs = () => {
                     <img src="assets/img/icons/comprehensive.svg" alt="Icon" />
                   </div>
                   <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                    Comprehensive <br />
-                    Services
+                    Better productivity
                   </h2>
                   <p className="cs_iconbox_subtitle m-0">
-                    We offer a wide range of healthcare services, <br />
-                    from preventive care to specialized treatment <br />
-                    for complex conditions.
+                    Quick access to care addresses minor issues before they
+                    escalate, helping staff stay healthy and productive.
                   </p>
                 </div>
                 <div className="cs_height_85 cs_height_xl_60 cs_height_lg_35" />
@@ -62,13 +60,12 @@ const WhyChooseUs = () => {
                     <img src="assets/img/icons/patient.svg" alt="Icon" />
                   </div>
                   <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                    Patient-centered <br />
-                    Approach
+                    Actionable insights
                   </h2>
                   <p className="cs_iconbox_subtitle m-0">
-                    We believe in treating each patient as an <br />
-                    individual, and we take the time to understand <br />
-                    your unique health needs and concerns.
+                    Anonymized reports show health trends and early warnings,
+                    giving employers the tools needed to promote preventive
+                    health practices at work.
                   </p>
                 </div>
                 <div className="cs_height_85 cs_height_xl_60 cs_height_lg_35" />
@@ -79,13 +76,11 @@ const WhyChooseUs = () => {
                     <img src="assets/img/icons/facilities.svg" alt="Icon" />
                   </div>
                   <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                    State-of-the-art <br />
-                    Facilities
+                    Easy integration
                   </h2>
                   <p className="cs_iconbox_subtitle m-0">
-                    Our healthcare center is equipped with the <br />
-                    latest technology and equipment to provide our <br />
-                    patients with the most advanced care possible.
+                    Very simple staff onboarding process. We work with your HMO
+                    or coordinate lab/referral billing per company policy.
                   </p>
                 </div>
                 <div className="cs_height_85 cs_height_xl_60 cs_height_lg_35" />
