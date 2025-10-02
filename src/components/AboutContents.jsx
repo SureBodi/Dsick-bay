@@ -53,7 +53,8 @@ const AboutContents = () => {
           <div className="col-xl-6">
             <div className="cs_about_img">
               <img
-                src="assets/img/home_2/about.jpg"
+                // src="assets/img/home_2/about.jpg"
+                src="/assets/img/WhatsApp Image 1404-07-07 at 23.53.34.jpeg"
                 alt="About"
                 className="cs_radius_30 w-100"
               />
