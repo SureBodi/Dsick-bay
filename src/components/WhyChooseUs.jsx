@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
             <div className="cs_pr_95 text-center cs_img_filed">
               <img
                 // src="assets/img/about/why_choose_us.jpg"
-                src="/assets/img/why_choose_dsickbay.jpeg"
+                src="/assets/img/why_choose_dsickbay.jpg"
                 alt="Why Choose Us"
                 className=" cs_radius_30"
               />
