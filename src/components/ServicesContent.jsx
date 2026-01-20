@@ -74,7 +74,7 @@ const ServicesContent = () => {
                 <img src="assets/img/icons/calendar_white.svg" alt="Icon" />
               </div>
               <h2 className="cs_iconbox_title cs_fs_32">
-                Coordinated laboratory tests and clinical review.
+                Cover for laboratory tests and hospital care.
               </h2>
             </div>
           </div>
