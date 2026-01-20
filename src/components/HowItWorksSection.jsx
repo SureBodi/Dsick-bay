@@ -127,11 +127,11 @@ const HowItWorksSection = () => {
             <div className="cs_iconbox_right">
               <h4 className="cs_iconbox_number">03</h4>
               <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                Lab coordination
+                Lab & Hospital Coordination
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                Book tests, route to partner labs <br /> or your HMO. Lab bills
-                handled <br /> per company policy.
+                Managed referral to labs <br /> or clinic. Lab and clinic bills
+                handled <br /> per company plan.
               </p>
             </div>
           </div>
