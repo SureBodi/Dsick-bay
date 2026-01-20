@@ -29,7 +29,7 @@ const PricePlanContents = () => {
         <div className="row">
           <div className="cs_section_heading cs_style_1 text-center">
             <h2 className="cs_section_title cs_fs_72 capitalize m-0">
-              A range of affordable subscription plans to choose from
+              A range of affordable health plans to choose from
             </h2>
           </div>
         </div>
@@ -44,8 +44,7 @@ const PricePlanContents = () => {
                   <span className="cs_accent_bg">Pilot offer | 30 Days</span>
                 </h3>
                 <p>
-                  Demonstrate impact on access to care, staff satisfaction, and
-                  early signals on reduced absenteeism
+                  Demonstrate impact on access to care and staff satisfaction.
                 </p>
                 <h2 className="cs_white_color mb-0 cs_fs_72 cs_semibold">
                   ₦1000<span className="cs_fs_24">/staff</span>
@@ -54,11 +53,11 @@ const PricePlanContents = () => {
               <div className="cs_pricing_card_body">
                 <ul className="cs_pricing_card_feature cs_fs_20 cs_heading_color">
                   <li>
-                    <i className="fa-solid fa-circle-check" /> One-off bills
+                    <i className="fa-solid fa-circle-check" /> Telemedicine Service
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> Mid & end of
-                    pilot reports
+                    <i className="fa-solid fa-circle-check" /> End of
+                    pilot report
                   </li>
                 </ul>
                 <div className="cs_pricing_card_btn">
@@ -84,36 +83,32 @@ const PricePlanContents = () => {
             </div>
           </div>
 
-          {/* Standard Plan */}
+          {/* Basic Plan */}
           <div className="col-xl-4">
             <div className="cs_pricing_card cs_style_1 cs_radius_20 overflow-hidden">
               <div className="cs_pricing_card_head cs_accent_bg cs_white_color">
                 <h3 className="cs_white_color cs_fs_24 cs_semibold">
-                  <span className="cs_accent_bg">Standard Plan </span>
+                  <span className="cs_accent_bg">Basic Plan </span>
                   <span className="cs_heading_color cs_normal">Popular</span>
                 </h3>
-                <p>Comprehensive on-demand access to Dsick bay services</p>
+                <p>On-demand access to Dsick bay Telemdicine Services</p>
                 <h2 className="cs_white_color mb-0 cs_fs_72 cs_semibold">
-                  ₦2500<span className="cs_fs_24">/staff</span>
+                  ₦2000<span className="cs_fs_24">/staff</span>
                 </h2>
               </div>
               <div className="cs_pricing_card_body">
                 <ul className="cs_pricing_card_feature cs_fs_20 cs_heading_color">
                   <li>
-                    <i className="fa-solid fa-circle-check" /> Monthly postpaid
-                    bill
+                    <i className="fa-solid fa-circle-check" /> Monthly Billing
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> 5 - 10% discount
-                    if 50+ staff
+                    <i className="fa-solid fa-circle-check" /> Telemedicine Service
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> 20% Annual prepay
-                    discount
+                    <i className="fa-solid fa-circle-check" /> Mental Health Support
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> Monthly &
-                    Quarterly KPIs
+                    <i className="fa-solid fa-circle-check" /> Quarterly Health Reports
                   </li>
                 </ul>
                 <div className="cs_pricing_card_btn">
@@ -121,9 +116,9 @@ const PricePlanContents = () => {
                     className="cs_btn cs_style_1 w-100"
                     onClick={() =>
                       startPlan({
-                        key: "standard",
-                        title: "Standard Plan",
-                        price: "₦2500",
+                        key: "basic",
+                        title: "Basic Plan",
+                        price: "₦2000",
                         per: "staff",
                         billing: "monthly postpaid",
                       })
@@ -139,38 +134,33 @@ const PricePlanContents = () => {
             </div>
           </div>
 
-          {/* Premium Plan */}
+          {/* Standard Plan */}
           <div className="col-xl-4">
             <div className="cs_pricing_card cs_style_1 cs_radius_20 overflow-hidden">
               <div className="cs_pricing_card_head cs_accent_bg cs_white_color">
                 <h3 className="cs_white_color cs_fs_24 cs_semibold">
-                  <span className="cs_accent_bg">Premium plan</span>
+                  <span className="cs_accent_bg">Standard plan</span>
                 </h3>
                 <p>
-                  Comprehensive on-demand access to Dsick bay services plus
-                  premium features
+                  Telemedicine plus cover for laboratory and in-person hospital care.
                 </p>
                 <h2 className="cs_white_color mb-0 cs_fs_72 cs_semibold">
-                  ₦3800<span className="cs_fs_24">/staff</span>
+                  ₦4500<span className="cs_fs_24">/staff</span>
                 </h2>
               </div>
               <div className="cs_pricing_card_body">
                 <ul className="cs_pricing_card_feature cs_fs_20 cs_heading_color">
                   <li>
-                    <i className="fa-solid fa-circle-check" /> Monthly postpaid
-                    bill
+                    <i className="fa-solid fa-circle-check" /> Monthly billing
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> 5 - 10% discount
-                    if 30+ staff
+                    <i className="fa-solid fa-circle-check" /> Telemedicine and Mental Health
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> 20% Annual prepay
-                    discount
+                    <i className="fa-solid fa-circle-check" /> Cover for Lab and hospital care
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> Monthly &
-                    Quarterly KPIs
+                    <i className="fa-solid fa-circle-check" /> Quarterly reports
                   </li>
                 </ul>
                 <div className="cs_pricing_card_btn">
@@ -178,9 +168,9 @@ const PricePlanContents = () => {
                     className="cs_btn cs_style_1 w-100"
                     onClick={() =>
                       startPlan({
-                        key: "premium",
-                        title: "Premium plan",
-                        price: "₦3800",
+                        key: "standard",
+                        title: "Standard plan",
+                        price: "₦4500",
                         per: "staff",
                         billing: "monthly postpaid",
                       })
