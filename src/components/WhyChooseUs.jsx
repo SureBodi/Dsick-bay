@@ -79,8 +79,8 @@ const WhyChooseUs = () => {
                     Easy integration
                   </h2>
                   <p className="cs_iconbox_subtitle m-0">
-                    Very simple staff onboarding process. We work with your HMO
-                    or coordinate lab/referral billing per company policy.
+                    Very simple staff onboarding process. We coordinate lab/referral
+                    per selected plan and company policy.
                   </p>
                 </div>
                 <div className="cs_height_85 cs_height_xl_60 cs_height_lg_35" />
