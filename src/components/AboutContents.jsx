@@ -41,12 +41,14 @@ const AboutContents = () => {
               <h2 className="cs_section_title cs_fs_72 m-0">About Dsick bay</h2>
               <div className="cs_height_85 cs_height_xl_40 cs_height_lg_30" />
               <p className="m-0">
-                Dsick bay brings prevention, clinical care and telehealth into
-                one easy-to-use platform for businesses. By combining proactive
-                screening with fast access to clinicians and anonymous reporting
-                for HR, we boost staff engagement, reduce absenteeism, and
-                generate measurable cost savings and improved health outcomes
-                across the organisation.
+                Dsickbay is a digital health platform designed to help small
+                and medium-sized enterprises (SMEs) provide affordable 
+                healthcare coverage for their employees by offering 
+                payroll-based, monthly health plans. 
+                Through the platform, employees can access medical care 
+                online and referrals to laboratory or clinic for in-person
+                care or diagnostics, generating measurable cost savings 
+                and improved health outcomes
               </p>
             </div>
           </div>
