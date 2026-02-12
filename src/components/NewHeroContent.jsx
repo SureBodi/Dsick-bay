@@ -64,7 +64,7 @@ export default function NewHeroContent() {
 
       <div className="cs_hero_img">
         <img
-          src="/assets/img/staff-img-2-removebg-preview.png"
+          src="/assets/img/dsb_hero_banner.png"
           className="h-image"
           alt="Hero"
         />
