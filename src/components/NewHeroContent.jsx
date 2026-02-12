@@ -22,14 +22,13 @@ export default function NewHeroContent() {
       <div className="container">
         <div className="cs_hero_text">
           <h1 className="cs_hero_title  cs_white_color cs_fs_84">
-            Fewer Sick Days Happier & Productive Teams
+            Fewer Sick Days, Happier & Productive Staff
           </h1>
 
           <div className="cs_hero_text_in">
             <p className="cs_hero_subtitle cs_white_color">
-              Improve your staff morale and wellbeing with our all in one
-              digital workplace health solution providing instant, confidential
-              medical care.
+              Give your employees quick, private access to quality healthcare
+              to keep them healthy, motivated, and productive.
             </p>
           </div>
 
