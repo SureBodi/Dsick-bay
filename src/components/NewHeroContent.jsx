@@ -22,13 +22,13 @@ export default function NewHeroContent() {
       <div className="container">
         <div className="cs_hero_text">
           <h1 className="cs_hero_title  cs_white_color cs_fs_84">
-            Fewer Sick Days, Happier & Productive Staff
+            Workplace Health Plans for Nigerian Businesses
           </h1>
 
           <div className="cs_hero_text_in">
             <p className="cs_hero_subtitle cs_white_color">
-              Give your employees quick, private access to quality healthcare
-              to keep them healthy, motivated, and productive.
+              Give your employees quick access to quality healthcare
+              to keep them healthy, motivated, productive and reduce sick absences.
             </p>
           </div>
 
@@ -97,10 +97,10 @@ export default function NewHeroContent() {
               </div>
               <div className="cs_hero_funfact_col">
                 <h3 className="cs_white_color cs_fs_72">
-                  <span className="odometer" data-count-to={233} />%
+                  <span className="odometer" data-count-to={50} />%
                 </h3>
                 <p className="cs_white_color mb-0">
-                  ROI from improved productivity
+                  Improved productivity
                 </p>
               </div>
             </div>
