@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
                     Lower absenteeism
                   </h2>
                   <p className="cs_iconbox_subtitle m-0">
-                    Faster triage and early care reduces full-day work absences.
+                    Prompt medical care reduces full-day work absences.
                   </p>
                 </div>
                 <div className="cs_height_85 cs_height_xl_60 cs_height_lg_35" />
@@ -48,7 +48,7 @@ const WhyChooseUs = () => {
                     Better productivity
                   </h2>
                   <p className="cs_iconbox_subtitle m-0">
-                    Quick access to care addresses minor issues before they
+                    Minor health issues are quickly attended to online before they
                     escalate, helping staff stay healthy and productive.
                   </p>
                 </div>
