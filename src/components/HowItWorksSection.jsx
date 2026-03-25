@@ -37,8 +37,7 @@ const HowItWorksSection = () => {
                 Telemedicine
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                Secure chat, audio and video consults <br /> with certified
-                doctors.
+                Online consultations results in fewer unnecessary clinic absences.
               </p>
             </div>
           </div>
@@ -76,7 +75,7 @@ const HowItWorksSection = () => {
                 Mental health support
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                mental health checkup, and therapy sessions.
+                Mental health checkup, and therapy sessions.
               </p>
             </div>
           </div>
@@ -127,7 +126,7 @@ const HowItWorksSection = () => {
             <div className="cs_iconbox_right">
               <h4 className="cs_iconbox_number">03</h4>
               <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                Lab & Hospital Coordination
+                HMO cover for Lab & Hospital Care
               </h2>
               <p className="cs_iconbox_subtitle m-0">
                 Managed referral to labs <br /> or clinic. Lab and clinic bills
@@ -298,10 +297,10 @@ const HowItWorksSection = () => {
             <div className="cs_iconbox_right">
               <h4 className="cs_iconbox_number">04</h4>
               <h2 className="cs_iconbox_title cs_fs_32 cs_semibold">
-                Anonymized <br /> admin dashboard
+                Anonymized <br /> admin reports
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                Utilization, health trends, and KPI reports
+                Utilization and documented reports
               </p>
             </div>
           </div>
@@ -351,7 +350,7 @@ const HowItWorksSection = () => {
                 SLA & support
               </h2>
               <p className="cs_iconbox_subtitle m-0">
-                Dedicated team and enterprise support.
+                Dedicated team.
               </p>
             </div>
           </div>
