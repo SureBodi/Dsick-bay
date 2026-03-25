@@ -53,11 +53,7 @@ const PricePlanContents = () => {
               <div className="cs_pricing_card_body">
                 <ul className="cs_pricing_card_feature cs_fs_20 cs_heading_color">
                   <li>
-                    <i className="fa-solid fa-circle-check" /> Telemedicine Service
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check" /> End of
-                    pilot report
+                    <i className="fa-solid fa-circle-check" /> Telemedicine Service Only
                   </li>
                 </ul>
                 <div className="cs_pricing_card_btn">
@@ -91,7 +87,7 @@ const PricePlanContents = () => {
                   <span className="cs_accent_bg">Basic Plan </span>
                   <span className="cs_heading_color cs_normal">Popular</span>
                 </h3>
-                <p>On-demand access to Dsick bay Telemdicine Services</p>
+                <p>On-demand access to Dsick bay Telemedicine Services</p>
                 <h2 className="cs_white_color mb-0 cs_fs_72 cs_semibold">
                   ₦2000<span className="cs_fs_24">/staff</span>
                 </h2>
@@ -105,7 +101,7 @@ const PricePlanContents = () => {
                     <i className="fa-solid fa-circle-check" /> Telemedicine Service
                   </li>
                   <li>
-                    <i className="fa-solid fa-circle-check" /> Mental Health Support
+                    <i className="fa-solid fa-circle-check" /> Mental Health Screening
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check" /> Quarterly Health Reports
@@ -142,7 +138,7 @@ const PricePlanContents = () => {
                   <span className="cs_accent_bg">Standard plan</span>
                 </h3>
                 <p>
-                  Telemedicine plus cover for laboratory and in-person hospital care.
+                  Telemedicine plus HMO cover.
                 </p>
                 <h2 className="cs_white_color mb-0 cs_fs_72 cs_semibold">
                   ₦4500<span className="cs_fs_24">/staff</span>
