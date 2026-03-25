@@ -41,12 +41,11 @@ const AboutContents = () => {
               <h2 className="cs_section_title cs_fs_72 m-0">About Dsick bay</h2>
               <div className="cs_height_85 cs_height_xl_40 cs_height_lg_30" />
               <p className="m-0">
-                Dsickbay is a digital health platform designed to help small
-                and medium-sized enterprises (SMEs) provide affordable 
-                healthcare coverage for their employees by offering 
-                payroll-based, monthly health plans. 
+                Dsick bay is a digital health platform designed to help small
+                and medium-sized businesses (SMEs) provide affordable 
+                healthcare coverage for their employees by offering monthly health plans. 
                 Through the platform, employees can access medical care 
-                online and referrals to laboratory or clinic for in-person
+                online and referrals to laboratory or hospital for in-person
                 care or diagnostics, generating measurable cost savings 
                 and improved health outcomes
               </p>
