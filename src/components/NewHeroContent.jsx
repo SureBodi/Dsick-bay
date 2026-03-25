@@ -89,7 +89,7 @@ export default function NewHeroContent() {
               </div>
               <div className="cs_hero_funfact_col">
                 <h3 className="cs_white_color cs_fs_72">
-                  <span className="odometer" data-count-to={50} />+
+                  <span className="odometer" data-count-to={1000} />+
                 </h3>
                 <p className="cs_white_color mb-0">
                   Affiliated health facilities
