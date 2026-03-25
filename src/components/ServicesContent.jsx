@@ -26,7 +26,7 @@ const ServicesContent = () => {
                 <img src="assets/img/icons/calendar_white.svg" alt="Icon" />
               </div>
               <h2 className="cs_iconbox_title cs_fs_32">
-                Instant symptom checks and fast triage.
+                Instant medical checks.
               </h2>
               {/* <p className="cs_iconbox_subtitle m-0">
                 Blood tests, imaging studies, and other tests to diagnose health
@@ -44,7 +44,7 @@ const ServicesContent = () => {
                 <img src="assets/img/icons/calendar_white.svg" alt="Icon" />
               </div>
               <h2 className="cs_iconbox_title cs_fs_32">
-                On-demand online consultations with a certified doctor.
+                Online consultations with a licensed doctor.
               </h2>
             </div>
           </div>
@@ -54,7 +54,7 @@ const ServicesContent = () => {
                 <img src="assets/img/icons/calendar_white.svg" alt="Icon" />
               </div>
               <h2 className="cs_iconbox_title cs_fs_32">
-                Confidential mental health screening and therapy sessions.
+                Confidential mental health screening and therapy.
               </h2>
             </div>
           </div>
@@ -74,7 +74,7 @@ const ServicesContent = () => {
                 <img src="assets/img/icons/calendar_white.svg" alt="Icon" />
               </div>
               <h2 className="cs_iconbox_title cs_fs_32">
-                Cover for laboratory tests and hospital care.
+                HMO Cover.
               </h2>
             </div>
           </div>
