@@ -22,13 +22,13 @@ export default function NewHeroContent() {
       <div className="container">
         <div className="cs_hero_text">
           <h1 className="cs_hero_title  cs_white_color cs_fs_84">
-            Workplace Health Plans for Nigerian Businesses
+            Corporate Healthcare Plans for Nigerian SMEs
           </h1>
 
           <div className="cs_hero_text_in">
             <p className="cs_hero_subtitle cs_white_color">
-              Give your employees quick access to quality healthcare
-              to keep them healthy, motivated, productive and reduce sick absences.
+              Give your employees fast, confidential access to doctors, mental health support, laboratory services
+              and hospital care all through one affordable digital health plan that reduces sick days and keeps your business productive.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function NewHeroContent() {
               }}
               className=" bg-[#fff]"
               onClick={() => setShowPilotForm(true)}>
-              Start 30 Day Pilot
+              Start Your 30 Day Pilot
             </button>
 
             <a
@@ -55,7 +55,7 @@ export default function NewHeroContent() {
               className=" bg-[#fff]"
               // onClick={() => setShowPilotDoc(true)}
               href="#pricing">
-              Enrol employees
+              View Plans
             </a>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function NewHeroContent() {
                   <span className="odometer" data-count-to={50} />%
                 </h3>
                 <p className="cs_white_color mb-0">
-                  Reduction in sick absences
+                  Lower Sick Leave
                 </p>
               </div>
               <div className="cs_hero_funfact_col">
@@ -92,7 +92,7 @@ export default function NewHeroContent() {
                   <span className="odometer" data-count-to={1000} />+
                 </h3>
                 <p className="cs_white_color mb-0">
-                  Affiliated health facilities
+                  Healthcare Partners
                 </p>
               </div>
               <div className="cs_hero_funfact_col">
@@ -100,7 +100,7 @@ export default function NewHeroContent() {
                   <span className="odometer" data-count-to={50} />%
                 </h3>
                 <p className="cs_white_color mb-0">
-                  Improved productivity
+                  Higher Productivity
                 </p>
               </div>
             </div>
